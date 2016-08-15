@@ -1,0 +1,22 @@
+{
+    "name": "lavoweb/warehouse-attribute-bundle",
+    "description": "PIM Warehouse attribute bundle",
+    "keywords": ["akeneo", "pim", "warehouse", "attribute"],
+    "homepage": "http://lavoweb.net",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Aurélien Lavorel",
+            "email": "aurelien@lavoweb.net",
+            "homepage": "http://lavoweb.net"
+        }
+    ],
+    "require": {
+        "akeneo/pim-community-dev": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Lavoweb\\Bundle\\WarehouseAttributeBundle\\": "."
+        }
+    }
+}
