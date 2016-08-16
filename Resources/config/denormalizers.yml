@@ -1,0 +1,7 @@
+services:
+    lavoweb_warehouse_attribute.denormalizer.base_value:
+        class: %pim_serializer.denormalizer.flat.base_value.class%
+        arguments:
+            - ['lavoweb_warehouse']
+        tags:
+            - { name: pimee_versioning.serializer.normalizer, priority: 90 }

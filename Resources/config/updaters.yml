@@ -1,0 +1,8 @@
+services:
+    lavoweb_warehouse_attribute.updater.setter.text_value:
+        class: %pim_catalog.updater.setter.text_value.class%
+        parent: pim_catalog.updater.setter.abstract
+        arguments:
+            - ['lavoweb_warehouse']
+        tags:
+            - { name: 'pim_catalog.updater.setter' }

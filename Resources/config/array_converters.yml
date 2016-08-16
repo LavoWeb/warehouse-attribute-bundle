@@ -1,0 +1,8 @@
+services:
+    lavoweb_warehouse_attribute.array_converter.flat.product.value_converter.warehouse:
+        class: %pim_connector.array_converter.flat.product.value_converter.scalar.class%
+        parent: pim_connector.array_converter.flat.product.value_converter.abstract
+        arguments:
+            - ['lavoweb_warehouse']
+        tags:
+            - { name: 'pim_connector.array_converter.flat.product.value_converter' }

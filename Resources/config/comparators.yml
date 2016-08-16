@@ -1,0 +1,7 @@
+services:
+    lavoweb_warehouse_attribute.comparator.attribute.scalar:
+        class: %pim_catalog.comparator.attribute.scalar.class%
+        arguments:
+            - [ 'lavoweb_warehouse']
+        tags:
+            - { name: pim_catalog.attribute.comparator, priority: -128 }

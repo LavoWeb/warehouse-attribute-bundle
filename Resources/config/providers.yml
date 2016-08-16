@@ -1,0 +1,5 @@
+services:
+    lavoweb_warehouse_attribute.provider.field.warehouse:
+        class: Lavoweb\Bundle\WarehouseAttributeBundle\Provider\Field\WarehouseProvider
+        tags:
+            - { name: pim_enrich.provider.field, priority: 100 }

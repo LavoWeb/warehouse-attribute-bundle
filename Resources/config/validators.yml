@@ -1,0 +1,2 @@
+parameters:
+    pim_catalog.validator.constraint.attribute_type_for_option.class: Lavoweb\Bundle\WarehouseAttributeBundle\Validator\AttributeTypeForOptionValidator

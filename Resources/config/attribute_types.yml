@@ -1,0 +1,23 @@
+parameters:
+    pim_datagrid.product.attribute_type.lavoweb_warehouse:
+        column:
+            type:        product_value_field
+            selector:    product_value_base
+        filter:
+            type:        product_value_string
+            ftype:       string
+            options:
+                field_options:
+                    attr:
+                        empty_choice: true
+        sorter:          product_value
+
+services:
+    lavoweb_warehouse_attribute.attribute_type.warehouse:
+        class: Lavoweb\Bundle\WarehouseAttributeBundle\AttributeType\WarehouseType
+        arguments:
+            - text
+            - textarea
+            - '@pim_catalog.validator.constraint_guesser.chained_attribute'
+        tags:
+            - { name: pim_catalog.attribute_type, alias: lavoweb_warehouse }

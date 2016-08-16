@@ -1,0 +1,3 @@
+parameters:
+    pim_connector.reader.file.csv.class: Lavoweb\Bundle\WarehouseAttributeBundle\Reader\CsvReader
+    pim_connector.reader.file.csv_product.class: Lavoweb\Bundle\WarehouseAttributeBundle\Reader\CsvProductReader

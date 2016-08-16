@@ -1,0 +1,4 @@
+config:
+    paths:
+        lavoweb/warehouse-field: lavowebwarehouseattribute/js/warehouse-field
+        lavoweb/template/product/field/warehouse: lavowebwarehouseattribute/template/product/field/warehouse.html
