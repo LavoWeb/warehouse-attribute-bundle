@@ -6,11 +6,9 @@ use Pim\Bundle\CatalogBundle\AttributeType\AbstractAttributeType;
 use Pim\Component\Catalog\Model\AttributeInterface;
 
 /**
- * Text attribute type
+ * Warehouse attribute type
  *
- * @author    Filips Alpe <filips@akeneo.com>
- * @copyright 2013 Akeneo SAS (http://www.akeneo.com)
- * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author    Aurélien Lavorel <aurelien@lavoweb.net>
  */
 class WarehouseType extends AbstractAttributeType
 {
