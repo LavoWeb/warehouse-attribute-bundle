@@ -11,9 +11,6 @@
             "homepage": "http://lavoweb.net"
         }
     ],
-    "require-dev": {
-        "akeneo/pim-community-dev": "1.5.*"
-    },
     "autoload": {
         "psr-4": { 
             "Lavoweb\\Bundle\\WarehouseAttributeBundle\\": "."
