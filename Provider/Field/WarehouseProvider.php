@@ -29,6 +29,6 @@ class WarehouseProvider implements FieldProviderInterface
      */
     public function supports($element)
     {
-        return $element instanceof AttributeInterface;
+        return true;
     }
 }
